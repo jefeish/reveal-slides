@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Sample .MD page
 
 the quick brown fox jumped over the lazy dog 
@@ -47,14 +46,3 @@ hello 2
 hello 3
 
 <img width="288" alt="mustwashhands" src="https://user-images.githubusercontent.com/863198/152094509-822de03b-46ca-4d85-83cd-5e1b25fcbc41.png">
-=======
-# sample .MD page
-
-|Name|Description|
-|---|---|
-|Joe|Member|
-
-- [ ] check me
-
-----
->>>>>>> 53fc1b95f5e99b49be8c8261fccdfbc32aa9b16b
