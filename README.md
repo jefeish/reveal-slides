@@ -1,1 +1,1 @@
-# reveal-slides
+# GitHub Pages with Slides
