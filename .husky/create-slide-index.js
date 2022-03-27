@@ -20,7 +20,7 @@ fs.readdir(directory, (err, files) => {
                 const slide = pageNumber.split('_')[0]
                 const subSlide = pageNumber.split('_')[1]
                 index = slide
-                slides[slide] = [file];
+                slides[slide].push(file);
             } else {
                 slides[pageNumber] = file;
             }
