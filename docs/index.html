@@ -7,31 +7,34 @@
 
 	<title>Slide-Show</title>
 
-	<link rel="stylesheet" href="dist/reset.css">
-	<link rel="stylesheet" href="dist/reveal.css">
-	<link rel="stylesheet" href="dist/theme/black.css">
+	<link rel="stylesheet" href="reveal/dist/reset.css">
+	<link rel="stylesheet" href="reveal/dist/reveal.css">
+	<link rel="stylesheet" href="reveal/dist/theme/black.css">
 
 	<!-- Theme used for syntax highlighted code -->
-	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	<link rel="stylesheet" href="reveal/plugin/highlight/monokai.css">
 </head>
 
 <body>
 	<div class="reveal">
 		<div class="slides">
 			<section>Slide 1</section>
-			<section>Slide 2</section>
+			<section data-background="images/gh-bg1.png" data-background-repeat="repeat">Slide 2</section>
 			<section>
-				<section data-markdown="slides/1-example.md">Slide 3</section>
-				<section data-markdown="slides/2-example.md">Slide 4</section>
+				<section data-background="images/gh-bg1.png" data-background-repeat="repeat" data-markdown="slides/1-example.md">Slide 3</section>
+				<section data-background="images/gh-bg1.png" data-background-repeat="repeat" data-markdown="slides/2-example.md">Slide 4</section>
+				<section data-background="images/gh-bg1.png" data-background-repeat="repeat" data-markdown="slides/5-example.md">Slide 4.1</section>
 			</section>
-			<section data-markdown="slides/3-example.md">Slide 5</section>
+			<!-- <section data-background="images/gh-bg1.png" data-background-repeat="repeat" data-markdown="slides/3-example.md">Slide 5</section> -->
+			<section data-background="images/gh-bg1.png" data-background-repeat="repeat" data-markdown="slides/4-example.html">Slide 6</section>
+			<section data-background="images/amber.png" data-background-repeat="repeat" data-background-size="12px" >Slide LAST</section>
 		</div>
 	</div>
 
-	<script src="dist/reveal.js"></script>
-	<script src="plugin/notes/notes.js"></script>
-	<script src="plugin/markdown/markdown.js"></script>
-	<script src="plugin/highlight/highlight.js"></script>
+	<script src="reveal/dist/reveal.js"></script>
+	<script src="reveal/plugin/notes/notes.js"></script>
+	<script src="reveal/plugin/markdown/markdown.js"></script>
+	<script src="reveal/plugin/highlight/highlight.js"></script>
 	<script>
 		// More info about initialization & config:
 		// - https://revealjs.com/initialization/
